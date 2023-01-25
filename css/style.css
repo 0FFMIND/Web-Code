@@ -1,0 +1,21 @@
+/* This is a stylesheet */
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+}
+.bold{
+	font-weight: bold!important;
+}
+.min-h{
+	min-height: 100vh!important;
+}
+.img-fluid{
+	max-width: 50vh!important;
+}
+.img-contact{
+	max-width: 20%;
+	hight: auto;
+}
