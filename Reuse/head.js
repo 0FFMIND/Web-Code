@@ -3,12 +3,15 @@ document.writeln(`
 	<link rel="shortcut icon" type="text/css" href="images/favicon.jpg">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<style>
+		.navbar{
+			margin-botton: 1px;
+			border-bottom: 1px solid black;
+		}
 		.nav-link{
 			display: block;
 			margin-right: 20px;
-			font-size: 22px;
-			font-weight: 600;
-			border-radius: 30px;
+			font-size: 18px;
+			font-weight: 400;
 		}
 		.active{
 			background-color: rgb(65, 141, 255) !important;
@@ -20,18 +23,28 @@ document.writeln(`
 		}
 		.teams{
 			font-size: 22px !important;
-		}		
+		}
 		.collapse:not(.show) .teams{
+			height: 49px;
 			width:80px;
 			font-size:13px !important;
 			flex-wrap: wrap !important;
+		}
+		.title-box{
+			font-size: 40px !important;
+			font-weight: 500 !important;
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; !important;
+		}
+		.title-box .name{
+			font-size: 40px !important;
+			font-weight:550 !important;
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; !important;
 		}
 	</style>
 
 	<body>
 
 <!-- code for navigation bar -->
-
 	<nav class="navbar navbar-expand-sm navbar-default" role="navigation">
 		<div class="container-fluid">
 			<div class="navbar-brand">
@@ -62,9 +75,9 @@ document.writeln(`
 		</div>
 	</nav>
 <!-- Name and line -->
-	<h1><strong>&emsp; Guodong Zhao</strong></h1>
-	<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="80%" color=#987cb9 SIZE=3>
-
+	<div class="title-box">
+		<span class="name">&emsp; Guodong</span> Zhao
+	</div>
 	<script type="text/javascript" scr="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 
