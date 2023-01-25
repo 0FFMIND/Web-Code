@@ -30,7 +30,7 @@ document.writeln(`
 
 	<body>
 
-<!-- code for display of navigation bar -->
+<!-- code for navigation bar -->
 
 	<nav class="navbar navbar-expand-sm navbar-default" role="navigation">
 		<div class="container-fluid">
