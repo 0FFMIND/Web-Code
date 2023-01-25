@@ -4,46 +4,38 @@ document.writeln(`
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<style>
 		.navbar{
-			margin-botton: 1px;
-			border-bottom: 1px solid black;
+			margin-bottom: 1px;
+			border-bottom: 1px solid black; /* 这里是上方的那条线 */
 		}
 		.nav-link{
 			display: block;
 			margin-right: 20px;
 			font-size: 18px;
 			font-weight: 400;
+			padding-bottom: 4.5px;	/* 这里是按钮边角 */
+			padding-top: 4.5px;
+			border-radius: 1px;
 		}
 		.active{
 			background-color: rgb(65, 141, 255) !important;
 			color: white !important;
 		}
 		.company{
-			width: 90px;
+			width: 85px;	/* 这里是glasgow标志的大小 */
 			height: auto;
 		}
 		.teams{
 			font-size: 22px !important;
 		}
 		.collapse:not(.show) .teams{
-			height: 49px;
-			width:80px;
-			font-size:13px !important;
+			height: 39px;
+			width:70px;
+			font-size:7px !important;
 			flex-wrap: wrap !important;
-		}
-		.title-box{
-			font-size: 40px !important;
-			font-weight: 500 !important;
-			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; !important;
-		}
-		.title-box .name{
-			font-size: 40px !important;
-			font-weight:550 !important;
-			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; !important;
 		}
 	</style>
 
 	<body>
-
 <!-- code for navigation bar -->
 	<nav class="navbar navbar-expand-sm navbar-default" role="navigation">
 		<div class="container-fluid">
@@ -74,13 +66,8 @@ document.writeln(`
 			</div>
 		</div>
 	</nav>
-<!-- Name and line -->
-	<div class="title-box">
-		<span class="name">&emsp; Guodong</span> Zhao
-	</div>
 	<script type="text/javascript" scr="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-
 <!-- script for switching navigation bar -->
 	<script>
 		var oriName = location.href;
