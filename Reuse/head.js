@@ -2,6 +2,7 @@ document.writeln(`
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="shortcut icon" type="text/css" href="images/favicon.jpg">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
 	<style>
 		.navbar{
 			margin-bottom: 1px;
@@ -16,6 +17,11 @@ document.writeln(`
 			padding-top: 4.5px;
 			border-radius: 1px;
 		}
+		/* 按钮鼠标悬停效果 */
+		.nav-link:hover{
+			background-color: rgb(120, 174, 255) !important;
+			color: white !important;
+		}
 		.active{
 			background-color: rgb(65, 141, 255) !important;
 			color: white !important;
@@ -25,7 +31,7 @@ document.writeln(`
 			height: auto;
 		}
 		.teams{
-			font-size: 22px !important;
+			font-size: 18px !important;
 		}
 		.collapse:not(.show) .teams{
 			height: 39px;
@@ -62,6 +68,9 @@ document.writeln(`
 							<span>Teaching</span>
 						</a>
 					</li>
+					<!-- 这里用来实现白天黑夜的功能 -->
+					<i class="fa fa-sun-o" style=" margin-top: 8px; margin-bottom: 5px;font-size:25px;"></i>
+					<!-- <i class="fa fa-moon-o" style=" margin-top: 5px; margin-bottom: 5px;font-size:25px;"></i> -->
 				</ul>
 			</div>
 		</div>
