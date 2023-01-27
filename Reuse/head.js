@@ -6,18 +6,18 @@ document.writeln(`
 	<style>
 		.navbar{
 			margin-bottom: 1px;
-			border-bottom: 1px solid black; /* ÕâÀïÊÇÉÏ·½µÄÄÇÌõÏß */
+			border-bottom: 1px solid black; /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
 		}
 		.nav-link{
 			display: block;
 			margin-right: 20px;
 			font-size: 18px;
 			font-weight: 400;
-			padding-bottom: 4.5px;	/* ÕâÀïÊÇ°´Å¥±ß½Ç */
+			padding-bottom: 4.5px;	/* ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½Å¥ï¿½ß½ï¿½ */
 			padding-top: 4.5px;
 			border-radius: 1px;
 		}
-		/* °´Å¥Êó±êÐüÍ£Ð§¹û */
+		/* ï¿½ï¿½Å¥ï¿½ï¿½ï¿½ï¿½ï¿½Í£Ð§ï¿½ï¿½ */
 		.nav-link:hover{
 			background-color: rgb(120, 174, 255) !important;
 			color: white !important;
@@ -27,7 +27,7 @@ document.writeln(`
 			color: white !important;
 		}
 		.company{
-			width: 85px;	/* ÕâÀïÊÇglasgow±êÖ¾µÄ´óÐ¡ */
+			width: 85px;	/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½glasgowï¿½ï¿½Ö¾ï¿½Ä´ï¿½Ð¡ */
 			height: auto;
 		}
 		.teams{
@@ -68,7 +68,7 @@ document.writeln(`
 							<span>Teaching</span>
 						</a>
 					</li>
-					<!-- ÕâÀïÓÃÀ´ÊµÏÖ°×ÌìºÚÒ¹µÄ¹¦ÄÜ -->
+					<!-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½Ö°ï¿½ï¿½ï¿½ï¿½Ò¹ï¿½Ä¹ï¿½ï¿½ï¿½ -->
 					<i class="fa fa-sun-o" style=" margin-top: 8px; margin-bottom: 5px;font-size:25px;"></i>
 					<!-- <i class="fa fa-moon-o" style=" margin-top: 5px; margin-bottom: 5px;font-size:25px;"></i> -->
 				</ul>
