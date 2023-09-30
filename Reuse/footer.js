@@ -1,1 +1,0 @@
-document.writeln(`<footer>&copy;Copyright 2022 Dr Guodong Zhao. All rights reserved</footer>`);
